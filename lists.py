@@ -62,8 +62,41 @@ print(val)
 
 # print (fruits)
 
-fruit=[]
-for i in range(5):
-    f_name=input("enter fruit name: ")
-    fruit.append(f_name)
-print(fruit)
+# fruit=[]
+# for i in range(5):
+#     f_name=input("enter fruit name: ")
+#     fruit.append(f_name)
+# print(fruit)
+
+#------------------DAY 2-------------------
+
+# list1 = [1,2,2,2,3,4,5,6]
+# list1.reverse()
+# print(list1)
+# b = [7,8,9]
+# list1.extend(b)
+# b.clear()
+# print("count")
+# print(list1.count(2))
+
+
+# print(list1)
+# for i in list1:
+#     if i % 2 == 0:
+#         print("even")
+
+#slicing
+
+var = "Hello This is test"
+print(var.split(","))
+print(var)
+
+
+input1 = int(input("Enter number of element: ")) #10 llist 10 
+
+list2 = []
+for i in range(0,input1):
+    list2.append(random.randint(0,1000))
+print(list2[:])
+print(list2[0:int(len(list2)/2)])
+print(list2[int(len(list2)/2):])
