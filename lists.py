@@ -88,7 +88,7 @@ print(val)
 #slicing
 
 var = "Hello This is test"
-print(var.split(","))
+print(var.split(" "))
 print(var)
 
 
@@ -97,6 +97,6 @@ input1 = int(input("Enter number of element: ")) #10 llist 10
 list2 = []
 for i in range(0,input1):
     list2.append(random.randint(0,1000))
-print(list2[:])
+print(list2)
 print(list2[0:int(len(list2)/2)])
 print(list2[int(len(list2)/2):])
