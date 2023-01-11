@@ -1,6 +1,6 @@
 d1 = {"a":"apple","b":"banana",
 "c":"carrot",
-"e":{1:"mouse",2:"keyboard"}}====
+"e":{1:"mouse",2:"keyboard"}}
 
 # print(d1["e"][2])
 # t = (1,2,3)

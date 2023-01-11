@@ -100,3 +100,6 @@ for i in range(0,input1):
 print(list2)
 print(list2[0:int(len(list2)/2)])
 print(list2[int(len(list2)/2):])
+
+x = "manish"
+print(x.replace("i",","))

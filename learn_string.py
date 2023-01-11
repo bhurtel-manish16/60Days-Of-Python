@@ -61,9 +61,12 @@ lname=input("Enter last name: ").capitalize()
 status = True
 a = 2
 b = 4
+#String formating
 #This shows value of a and b and displays the sum
 print(f"Sum of {a} and {b} is {a+b}")
-
+"""
+hello this is Multi-line commenting
+"""
 fullname = fname+" "+lname
 #print("Welcome " +fname+" "+lname+ " to Facebook")
 print(f"Hello {status} welcome back!")
