@@ -21,7 +21,7 @@ class dog:
     def show_name(name):
         print("name of the dog is: ",name)
 
-
+ 
 d1 = dog
 d1.show_name(d1.name)
 d2 = dog
